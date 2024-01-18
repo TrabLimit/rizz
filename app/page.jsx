@@ -8,7 +8,7 @@ import { calculate } from "@/utility/helpers" // I added this function beforehan
 
 export default function Home() {
 
-  const [score, setScore] = useState(10);
+  const [score, setScore] = useState(0);
 
   function calculateScore(name, major) {
     /*alert('hi');*/
