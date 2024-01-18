@@ -33,7 +33,6 @@ export default function Home() {
       </p> 
 
 
-
       { score == 0? 
       <Form handleCalculate={calculateScore}/>
       : <Result score={score}/>
